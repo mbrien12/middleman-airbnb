@@ -35,6 +35,22 @@
 <div class="flat-details">
   <p><strong>About this flat</strong></p>
   <p class= "font-lighter"><%= flat.description_long %></p>
+
+  <table>
+    <tr>
+      <th>Amenities</th>
+      <% if flat.kitchen == true  %>
+      <td><%= '<i class="fa fa-cutlery" aria-hidden="true"></i> Kitchen' %></td>
+      <% end %>
+      <% if flat.wifi == true %>
+      <td><%= '<i class="fa fa-wifi" aria-hidden="true"></i> Wifi' %></td>
+      <% end %>
+    </tr>
+    <tr>
+      <th>The space</th>
+      <td>10 bedrooms</td>
+    </tr>
+  </table>
 </div>
 
 

@@ -25,6 +25,7 @@ padding: 40px;
   display: flex;
   align-items: center;
   margin-left: 100px;
+  color: $purple;
 }
 
 .profile-img {
@@ -88,4 +89,17 @@ font-weight: lighter;
   color: black;
   font-size: 15px;
   padding: 50px;
+}
+
+table {
+  font-size: 12px;
+}
+
+th {
+  padding-right: 50px;
+}
+
+td {
+  padding: 30px;
+  color: $gray;
 }
