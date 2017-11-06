@@ -1,0 +1,91 @@
+/* Layouts */
+
+.banner-wide {
+  height: 250px;
+  background-position: center center;
+}
+
+.header-flat {
+  background-color: white;
+
+}
+
+.profile-flat {
+ display: flex;
+justify-content: space-around;
+padding: 40px;
+
+}
+
+
+
+/* Profile info */
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.profile-img {
+  margin-right: 30px;
+
+  p {
+    text-align: center;
+  }
+}
+
+.avatar-small {
+  width: 80px;
+}
+
+.profile-info p {
+  font-size: 16px;
+
+  h4 {
+    font-size: 20px;
+  }
+}
+
+
+
+/* Form */
+
+form {
+  background-color: $light-gray;
+  padding: 10px;
+  border-radius: 5px;
+   p {
+    color: black;
+    text-align: center;
+   }
+}
+
+select, input[type=submit]  {
+  width: 100%;
+  margin-top: 20px;
+}
+
+input[type=text], select {
+  font-size: 14px;
+}
+
+select {
+  color: black;
+}
+
+
+/* Details */
+
+.font-lighter {
+font-weight: lighter;
+}
+
+
+.flat-details {
+  width: 900px;
+  margin: 0 auto;
+  color: black;
+  font-size: 15px;
+  padding: 50px;
+}
